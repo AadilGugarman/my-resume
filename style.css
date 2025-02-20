@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+#profile pre{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5rem;
+}
+.left{
+    width: 52%;
+    border-right: 3px solid black;
+    
+}
+.right{
+    width: 47%;
+}
+h2{
+    text-transform: uppercase;
+    color:#1b263b ;
+    border-bottom: 3px solid black;
+}
+header{
+    color: #415a77;
+
+    
+}
