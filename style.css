@@ -1,7 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
 }
 .container{
     display: flex;
@@ -11,8 +12,9 @@ body{
     margin: auto;
 }
 #profile pre{
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 1.5rem;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+   
 }
 .left{
     width: 52%;
@@ -24,22 +26,30 @@ body{
 }
 h2{
     text-transform: uppercase;
-    color:#1b263b ;
+    color:#001c55 ;
     border-bottom: 3px solid black;
 }
 header{
-    color: #415a77;
+    color:#00072d ;
     margin-left: 1rem;
+    font-family: "Montserrat", serif;;
 }
 h1{
     font-size: 2.5em;
+    font-family: "Montserrat", serif;;
 }
-@media (max-width: 700px){
+section{
+    line-height: 2rem;
+}
+@media (max-width: 1022px){
     .container{
         flex-direction: column;
     } .left .right{
         width: 100%;
     } .left{
         border-right: none;
-    } 
+    } header {
+     text-align: center;
+    }
+
 }
